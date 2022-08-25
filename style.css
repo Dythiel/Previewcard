@@ -1,0 +1,97 @@
+.container {
+    background-color: black;
+    width: 400px; 
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    line-height: 15px;
+    border-radius: 5%;
+}
+.whitebackground {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    border-radius: 0% 5% 5% 0%;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.image {
+    background-image: url("/backup/image-product-desktopB.jpg");
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    background-size: cover;
+    border-radius: 5% 0% 0% 5%;
+
+}
+.header {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 8px;
+    display: flex;
+    opacity: 60%;
+}
+.title {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    flex-direction: column-reverse;
+    opacity: 60%;
+}
+.discount {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: seagreen ;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    text-decoration: line-through;
+    background-color: white;
+    padding-top: 9px;
+    opacity: 60%;
+}
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+.pricebox {
+    height: 30px;
+    width: 125px;
+}
+.button  {
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #3D8168;
+    border: 0;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 20px;
+    font-weight: 200;
+    color: white;
+    font-size: 10px;
+}
+.attribution {
+    font-size: 7px;
+    background-color: white;
+}
+img {
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    background-color: #3D8168;
+}

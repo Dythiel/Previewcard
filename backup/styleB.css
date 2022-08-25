@@ -1,0 +1,16 @@
+img {
+    border-radius: 5%;
+}
+* {
+    background-color: bisque;
+}
+.perfume {
+    position: relative;
+    z-index: 1;
+}
+.whitebackground {
+    position: relative;
+    top: -305px;
+    left: 25%;
+    z-index: 2;
+}
